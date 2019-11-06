@@ -51,5 +51,21 @@
 
 img {
     margin: 5px;
-    height: 250px;
+    width: 250px;
+}
+
+@media (max-width: 600px) {
+
+    img{
+        width:180px;
+    }
+    .sliderBox {
+        height: 700px;
+    }
+    .slide {  
+        padding: 20px 50px 20px 50px;
+    }
+    .slide_content {
+        flex-wrap: wrap;
+    }
 }
